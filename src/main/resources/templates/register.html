@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+
+<head>
+  <meta charset="utf-8">
+  <title>My first project</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <form th:object="${user}"  th:action="@{/register}"  method="post" >
+      <div class="form-group" >
+        <label for="formGroupExampleInput">Full Name</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your full name here" th:field="*{userName}">
+        <p class="alert alert-danger" th:if="${#fields.hasErrors('userName')}" th:errors="*{userName}"></p>
+        
+      </div>
+      <div class="form-group">
+        <label for="formGroupExampleInput">Moblie Phone</label>
+        <div class="input-group-text">+20 
+       <input type="tel" class="form-control" id="formGroupExampleInput" placeholder="Enter your Moblie Phone Here" th:field="*{phone}">
+      <p class="alert alert-danger" th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}"></p>
+      </div></div>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" th:field="*{account.email}" >
+        <p class="alert alert-danger" th:if="${#fields.hasErrors('account.email')}" th:errors="*{account.email}"></p>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" th:field="*{account.password}">
+        <p class="alert alert-danger" th:if="${#fields.hasErrors('account.password')}" th:errors="*{account.password}"></p>
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

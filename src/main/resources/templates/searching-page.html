@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <title>Add ads</title>
+    <link rel="stylesheet" href="lib/bootstrap.css">
+    <link rel="stylesheet" href="lib/jquery-ui.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div th:include = "search :: search"></div>
+        <div><br></div>
+       <div  th:if=" ${!adsSearch.isEmpty()}" class="alert alert-info" role="alert">
+        You are Searching About  
+        <strong th:text=" ${adsSearch}"></strong>
+       </div>
+        <div class="row border " style="cursor: pointer;" th:each=" ads: ${ads}">
+        <div><br></div>
+          <div class="col-3">
+            <img  th:if="${ads.img.isEmpty()}" th:src="${ads.mainImg}" class="d-flex align-self-start"  style="width: 250px; height: 200px;" alt="Card image cap">
+            <img  th:if="${!ads.img.isEmpty()}" th:src="@{${ads.img.get(0).imgUrl}}" class="d-flex align-self-start"  style="width: 250px; height: 200px;" alt="Card image cap">
+            
+          </div>
+          <div class="col-7">
+              <div class="row"> <a class="card-title" th:text="${ads.title}" th:href="|/ads/${ads.adsId}|" style ="font-size : 40 px"></a></div>
+              <div class="row"> <p th:text="${ads.category.categoryName}">category</p></div><br><br>
+              <div class="row"> <p th:text="${ads.city.cityName}">city</p></div>
+              <div class="row"> <p th:text="${ads.getTimeFromNow()}">2 hours ago</p></div>
+          </div>
+          <div class="col-2"> 
+            <h3 th:text="${ads.info.salary+'  $'}" th:if="${not ads.info.salary.isEmpty()}">250 EGP</h3><br><br><br><br>
+            <a th:href="|/ads/${ads.adsId}|" class="btn btn-primary">Watch Ads</a>
+          </div>
+          <div><br></div>
+        </div>
+        <div th:text="${ads.getNumber()}"></div>
+        <div th:text="${ads.getNumberOfElements()}"></div>
+        
+        <div th:text="${ads.getTotalElements()}"></div>
+        <div th:text="${ads.getTotalPages()}"></div>
+        <div th:text="${ads.totalPages}"></div>
+    </div>
+
+     <nav aria-label="Pagination" th:if="${ads.totalPages gt 0}">
+            <ul class="pagination justify-content-center font-weight-bold">
+                <li class="page-item" th:classappend="${ads.number eq 0} ? 'disabled'">
+                    <a class="page-link"
+                       th:href="@{/search?page={id}(id=${ads.number lt 2 ? 1 : ads.number})}"
+                       aria-label="Previous" title="Previous Page" data-toggle="tooltip">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item" th:classappend="${i eq ads.number + 1} ? 'active'"
+                    th:each="i : ${#numbers.sequence( 1, ads.totalPages, 1)}">
+                    <a class="page-link" th:href="@{/search(page=${i},adsSearch=${adsSearch},loc=${loc})}" th:text="${i}"
+                       th:title="${'Page '+ i}" data-toggle="tooltip"></a>
+                </li>
+                <li class="page-item" th:classappend="${ads.number + 1 eq ads.totalPages} ? 'disabled'">
+                    <a class="page-link"
+                       th:href="@{/search?page={id}(id=${ads.number + 2})}"
+                       aria-label="Next" title="Next Page" data-toggle="tooltip">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    <script src="lib/jquery.js"></script>
+    <script src="lib/jquery-ui.min.js"></script>
+    <script src="lib/bootstrap.js"></script>
+</body>
+
+</html>

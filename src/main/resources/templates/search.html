@@ -1,0 +1,113 @@
+<!DOCTYPE html  >
+<html lang="en" dir="ltr"  xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <title>Search</title>
+    <link rel="stylesheet" href="lib/bootstrap.css">
+    <link rel="stylesheet" href="lib/jquery-ui.min.css">
+</head>
+
+<body  th:fragment ="search" >
+    <div >
+    <div style="padding: 20px; background-color: #e3f2fd;">
+
+        <form autocomplete="off" id="searchForm" th:action="@{/search}" method="get"> 
+            <div class="row">
+                <div class="col">
+                    <input type="text" name="adsSearch" class="form-control mdb-autocomplete"
+                        placeholder="Search ads here">
+
+                </div>
+
+
+
+
+                <div class="col">
+                    <input  id = "loc" type="text" class="form-control" placeholder="Location" name="loc">
+                     
+                </div>
+                <input type="text" name="locType" id="locType" hidden="true" value="city">
+
+
+
+
+                <div class="col">
+                    <button class="btn btn-primary float-none" type="submit" >
+                        <span style="margin: 10px;"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                                <path fill-rule="evenodd"
+                                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                            </svg></span>Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+        <style>
+        .ui-autocomplete {
+             max-height: 200px;
+             overflow-y: auto;
+             /* prevent horizontal scrollbar */
+             overflow-x: hidden;
+             /* add padding to account for vertical scrollbar */
+             padding-right: 20px;
+         } 
+     </style>
+    <script src="lib/jquery.js"></script>
+    <script src="lib/jquery-ui.min.js"></script>
+    <script src="lib/bootstrap.js"></script>
+
+
+    <script type="text/javascript">
+    var loc=[]
+    var locData;
+
+    $(function() {
+
+
+    $.ajax({
+                url: 'location.json',
+                dataType: 'json',
+                success: function (data) {
+                    locData = data
+                    for (i in data) {
+                       loc.push(data[i].name)
+                       for(j in data[i].subregions)
+                       loc.push(data[i].subregions[j].name_long)
+                    }
+                        }
+
+                    }); })
+
+    $( "#loc" ).autocomplete({
+      source: loc
+      })
+
+      $('#searchForm').submit(function() {
+         selected = $("#loc").val()
+         if(!selected.includes(",")){
+             $("#locType").val("gov")
+             for (i in locData){
+                 if(locData[i].name == selected) $('#loc').val(locData[i].id)
+             }
+             
+         }
+         else if (selected ==""){}
+         else{
+            for(i in locData){
+                for(j in locData[i].subregions){
+                    if(locData[i].subregions[j].name_long == selected) $('#loc').val(locData[i].subregions[j].id)
+                }
+            }
+
+         }
+        
+        }) 
+
+    </script>
+</body>
+
+</html>

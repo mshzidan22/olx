@@ -1,0 +1,102 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <title>OLX</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-sm-6 col-md-8">
+          <H1 th:text="${ads.title}">title of the ad</H1>
+          <p>
+            <strong th:text="|${ads.city.cityName} ||">cityname  </strong>
+            <span th:text="|added at time ${ads.time}|">added at time of 45/5/218</span>
+          
+          </p>
+        </div>
+        <div class="col-6 col-md-4" style="margin: auto; text-align: center ;">
+          <H1 th:text="|${ads.info.salary} EGP|">1000 EGP</H1>
+        </div>
+      </div>
+
+      <div class="row no-gutters" >
+        <div class="col-sm-6 col-md-9" >
+            <img class="img-fluid" th:with="imageUrl=(${ads.img.isEmpty()}? '/images/nophoto.png' : ${ads.img.get(0).imgUrl})" th:src="@{${imageUrl}}" alt="image is deleted">
+            <br>
+              
+              <table class="table table-bordered"><tr>
+              <td class="table-info">Brand</td>
+              <td class="table-info" th:attr="if=${!ads.info.brand.isEmpty()} , text=${ads.info.brand}">Samsung</td>
+              <td class="table-info">Condtion</td>
+              <td class="table-info" th:text="${ads.info.condtion}">New</td></tr>
+          </table>
+            <p th:text=${ads.descreption}>
+              this is the discription of the id ok or notldkfjalskdjf ;lakdjsflaksjdfl kajsflk askdfjksdjfkd jfkd jfk jdkfjdif
+              kfdfdfhdfidhfidfhidfhidfhid hdi hidh idfhdifh difhdifhidfhihihihih 
+            </p>
+            <br><br>
+            <img th:unless="${ads.img.isEmpty()}" th:each="images:${ads.img}" class="img-fluid" th:src="@{${images.imgUrl}}" alt="image is deleted"><div><br></div>
+            
+            
+            <div class="mt-3"> 
+              <button type="button" class="btn btn-primary">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-return-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M5.854 5.646a.5.5 0 0 1 0 .708L3.207 9l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"/>
+                  <path fill-rule="evenodd" d="M13.5 2.5a.5.5 0 0 1 .5.5v4a2.5 2.5 0 0 1-2.5 2.5H3a.5.5 0 0 1 0-1h8.5A1.5 1.5 0 0 0 13 7V3a.5.5 0 0 1 .5-.5z"/>
+                </svg> Back
+              </button>
+
+            </div>
+            <br>
+
+             
+        
+          </div>
+        <div class="col-6 col-md-3">
+          <button type="button" class="btn btn-primary btn-lg btn-block" style="margin-left:10px ;">
+            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+            </svg> SEND MESSAGE
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-block" style="margin-left:10px ;">
+            <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+            </svg> 01091180634
+          </button>
+          <div class="card ml-3 mt-5">
+            <h4 style="text-align: center;">Important Safety Tips</h4>
+            <ol>
+              <li>Only meet in public/crowded places for example metro stations and malls.</li>
+              <li>Never go alone to meet a buyer/seller, always take someone with you</li>
+              <li>Check and inspect the product properly before purchasing it</li>
+              <li>Never pay anything in advance or transfer money before inspecting the product</li>
+            </ol>
+          </div>
+
+          <div class="card ml-3 mt-5">
+            
+              <svg style="margin: auto;" width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M13 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM3.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              </svg> 
+              <h5 style="text-align: center;">Mohammed ahmed</h5>
+              <h6 style="text-align: center;">On site since Oct 2016</h6>
+              <a href="#" style="text-align: center;"> User Ads</a>
+  
+
+
+
+        </div>
+
+
+      </div>
+      </div>
+          </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

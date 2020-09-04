@@ -1,0 +1,2519 @@
+[
+    {
+        "id": 6,
+        "name": "Alexandria",
+        "url": "alexandria",
+        "subregions": [
+            {
+                "id": "297",
+                "name": "Abu Qir",
+                "name_long": "Abu Qir, Alexandria",
+                "url": "abu-qir"
+            },
+            {
+                "id": "416",
+                "name": "Abu Talat",
+                "name_long": "Abu Talat, Alexandria",
+                "url": "abu-talat"
+            },
+            {
+                "id": "317",
+                "name": "Agami",
+                "name_long": "Agami, Alexandria",
+                "url": "agami"
+            },
+            {
+                "id": "362",
+                "name": "Al Hadrah",
+                "name_long": "Al Hadrah, Alexandria",
+                "url": "al-hadrah"
+            },
+            {
+                "id": "390",
+                "name": "Al Ibrahimiyyah",
+                "name_long": "Al Ibrahimiyyah, Alexandria",
+                "url": "al-ibrahimiyyah"
+            },
+            {
+                "id": "99",
+                "name": "Amreya",
+                "name_long": "Amreya, Alexandria",
+                "url": "amreya"
+            },
+            {
+                "id": "100",
+                "name": "Asafra",
+                "name_long": "Asafra, Alexandria",
+                "url": "asafra"
+            },
+            {
+                "id": "101",
+                "name": "Attarin",
+                "name_long": "Attarin, Alexandria",
+                "url": "attarin"
+            },
+            {
+                "id": "109",
+                "name": "Awayed",
+                "name_long": "Awayed, Alexandria",
+                "url": "awayed"
+            },
+            {
+                "id": "96",
+                "name": "Azarita",
+                "name_long": "Azarita, Alexandria",
+                "url": "azarita"
+            },
+            {
+                "id": "104",
+                "name": "Bacchus",
+                "name_long": "Bacchus, Alexandria",
+                "url": "bacchus"
+            },
+            {
+                "id": "313",
+                "name": "Bahray - Anfoshy",
+                "name_long": "Bahray - Anfoshy, Alexandria",
+                "url": "bahray-anfoshy"
+            },
+            {
+                "id": "105",
+                "name": "Bolkly",
+                "name_long": "Bolkly, Alexandria",
+                "url": "bolkly"
+            },
+            {
+                "id": "318",
+                "name": "Borg al-Arab",
+                "name_long": "Borg al-Arab, Alexandria",
+                "url": "borg-al-arab"
+            },
+            {
+                "id": "116",
+                "name": "Camp Caesar",
+                "name_long": "Camp Caesar, Alexandria",
+                "url": "camp-caesar"
+            },
+            {
+                "id": "125",
+                "name": "Cleopatra",
+                "name_long": "Cleopatra, Alexandria",
+                "url": "cleopatra"
+            },
+            {
+                "id": "314",
+                "name": "Dekheila",
+                "name_long": "Dekheila, Alexandria",
+                "url": "dekheila"
+            },
+            {
+                "id": "98",
+                "name": "Dhahria",
+                "name_long": "Dhahria, Alexandria",
+                "url": "dhahria"
+            },
+            {
+                "id": "361",
+                "name": "El Max",
+                "name_long": "El Max, Alexandria",
+                "url": "el-max"
+            },
+            {
+                "id": "115",
+                "name": "Fleming",
+                "name_long": "Fleming, Alexandria",
+                "url": "fleming"
+            },
+            {
+                "id": "107",
+                "name": "Gianaclis",
+                "name_long": "Gianaclis, Alexandria",
+                "url": "gianaclis"
+            },
+            {
+                "id": "106",
+                "name": "Glim",
+                "name_long": "Glim, Alexandria",
+                "url": "glim"
+            },
+            {
+                "id": "108",
+                "name": "Gomrok",
+                "name_long": "Gomrok, Alexandria",
+                "url": "gomrok"
+            },
+            {
+                "id": "122",
+                "name": "Kabbary",
+                "name_long": "Kabbary, Alexandria",
+                "url": "kabbary"
+            },
+            {
+                "id": "308",
+                "name": "Kafr Abdo",
+                "name_long": "Kafr Abdo, Alexandria",
+                "url": "kafr-abdo"
+            },
+            {
+                "id": "117",
+                "name": "Karmous",
+                "name_long": "Karmous, Alexandria",
+                "url": "karmous"
+            },
+            {
+                "id": "118",
+                "name": "Koum al-Dikka",
+                "name_long": "Koum al-Dikka, Alexandria",
+                "url": "koum-al-dikka"
+            },
+            {
+                "id": "102",
+                "name": "Labban",
+                "name_long": "Labban, Alexandria",
+                "url": "labban"
+            },
+            {
+                "id": "119",
+                "name": "Laurent",
+                "name_long": "Laurent, Alexandria",
+                "url": "laurent"
+            },
+            {
+                "id": "299",
+                "name": "Maamoura",
+                "name_long": "Maamoura, Alexandria",
+                "url": "maamoura"
+            },
+            {
+                "id": "302",
+                "name": "Mandara",
+                "name_long": "Mandara, Alexandria",
+                "url": "mandara"
+            },
+            {
+                "id": "103",
+                "name": "Manshiyya",
+                "name_long": "Manshiyya, Alexandria",
+                "url": "manshiyya"
+            },
+            {
+                "id": "301",
+                "name": "Miami",
+                "name_long": "Miami, Alexandria",
+                "url": "miami"
+            },
+            {
+                "id": "312",
+                "name": "Moharam Bik",
+                "name_long": "Moharam Bik, Alexandria",
+                "url": "moharam-bik"
+            },
+            {
+                "id": "300",
+                "name": "Montazah",
+                "name_long": "Montazah, Alexandria",
+                "url": "montazah"
+            },
+            {
+                "id": "113",
+                "name": "Nakheel",
+                "name_long": "Nakheel, Alexandria",
+                "url": "nakheel"
+            },
+            {
+                "id": "311",
+                "name": "Raml Station",
+                "name_long": "Raml Station, Alexandria",
+                "url": "raml-station"
+            },
+            {
+                "id": "110",
+                "name": "Ras El Tin",
+                "name_long": "Ras El Tin, Alexandria",
+                "url": "ras-el-tin"
+            },
+            {
+                "id": "412",
+                "name": "Roushdy",
+                "name_long": "Roushdy, Alexandria",
+                "url": "roushdy"
+            },
+            {
+                "id": "112",
+                "name": "Saba Pasha",
+                "name_long": "Saba Pasha, Alexandria",
+                "url": "saba-pasha"
+            },
+            {
+                "id": "97",
+                "name": "Salehia",
+                "name_long": "Salehia, Alexandria",
+                "url": "salehia"
+            },
+            {
+                "id": "305",
+                "name": "San Stefano",
+                "name_long": "San Stefano, Alexandria",
+                "url": "san-stefano"
+            },
+            {
+                "id": "114",
+                "name": "Schutz",
+                "name_long": "Schutz, Alexandria",
+                "url": "schutz"
+            },
+            {
+                "id": "304",
+                "name": "Seyouf",
+                "name_long": "Seyouf, Alexandria",
+                "url": "seyouf"
+            },
+            {
+                "id": "310",
+                "name": "Shatby",
+                "name_long": "Shatby, Alexandria",
+                "url": "shatby"
+            },
+            {
+                "id": "303",
+                "name": "Sidi Beshr",
+                "name_long": "Sidi Beshr, Alexandria",
+                "url": "sidi-beshr"
+            },
+            {
+                "id": "307",
+                "name": "Sidi Gaber",
+                "name_long": "Sidi Gaber, Alexandria",
+                "url": "sidi-gaber"
+            },
+            {
+                "id": "309",
+                "name": "Smoha",
+                "name_long": "Smoha, Alexandria",
+                "url": "smoha"
+            },
+            {
+                "id": "124",
+                "name": "Sporting",
+                "name_long": "Sporting, Alexandria",
+                "url": "sporting"
+            },
+            {
+                "id": "306",
+                "name": "Stanley",
+                "name_long": "Stanley, Alexandria",
+                "url": "stanley"
+            },
+            {
+                "id": "121",
+                "name": "Victoria",
+                "name_long": "Victoria, Alexandria",
+                "url": "victoria"
+            },
+            {
+                "id": "95",
+                "name": "Wardian",
+                "name_long": "Wardian, Alexandria",
+                "url": "wardian"
+            },
+            {
+                "id": "111",
+                "name": "Zezenia",
+                "name_long": "Zezenia, Alexandria",
+                "url": "zezenia"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Aswan",
+        "url": "aswan",
+        "subregions": [
+            {
+                "id": "347",
+                "name": "Abou al-Reish",
+                "name_long": "Abou al-Reish, Aswan",
+                "url": "abou-al-reish"
+            },
+            {
+                "id": "348",
+                "name": "Abou Simbel",
+                "name_long": "Abou Simbel, Aswan",
+                "url": "abou-simbel"
+            },
+            {
+                "id": "350",
+                "name": "Aswan City",
+                "name_long": "Aswan City, Aswan",
+                "url": "aswan-city"
+            },
+            {
+                "id": "352",
+                "name": "Basiliah",
+                "name_long": "Basiliah, Aswan",
+                "url": "basiliah"
+            },
+            {
+                "id": "349",
+                "name": "Daraw",
+                "name_long": "Daraw, Aswan",
+                "url": "daraw"
+            },
+            {
+                "id": "351",
+                "name": "Edfu",
+                "name_long": "Edfu, Aswan",
+                "url": "edfu"
+            },
+            {
+                "id": "355",
+                "name": "Kalabsha",
+                "name_long": "Kalabsha, Aswan",
+                "url": "kalabsha"
+            },
+            {
+                "id": "356",
+                "name": "Kom Ombo",
+                "name_long": "Kom Ombo, Aswan",
+                "url": "kom-ombo"
+            },
+            {
+                "id": "357",
+                "name": "Nasr al-Noba",
+                "name_long": "Nasr al-Noba, Aswan",
+                "url": "nasr-al-noba"
+            },
+            {
+                "id": "353",
+                "name": "Rdesiah",
+                "name_long": "Rdesiah, Aswan",
+                "url": "rdesiah"
+            },
+            {
+                "id": "358",
+                "name": "Sahara",
+                "name_long": "Sahara, Aswan",
+                "url": "sahara"
+            },
+            {
+                "id": "354",
+                "name": "Sebaeiah",
+                "name_long": "Sebaeiah, Aswan",
+                "url": "sebaeiah"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Asyut",
+        "url": "asyut",
+        "subregions": [
+            {
+                "id": "337",
+                "name": "Abnub",
+                "name_long": "Abnub, Asyut",
+                "url": "abnub"
+            },
+            {
+                "id": "338",
+                "name": "Abu Teeg",
+                "name_long": "Abu Teeg, Asyut",
+                "url": "abu-teeg"
+            },
+            {
+                "id": "126",
+                "name": "Asyut City",
+                "name_long": "Asyut City, Asyut",
+                "url": "asyut-city"
+            },
+            {
+                "id": "340",
+                "name": "Badari",
+                "name_long": "Badari, Asyut",
+                "url": "badari"
+            },
+            {
+                "id": "339",
+                "name": "Dairut",
+                "name_long": "Dairut, Asyut",
+                "url": "dairut"
+            },
+            {
+                "id": "341",
+                "name": "Fateh",
+                "name_long": "Fateh, Asyut",
+                "url": "fateh"
+            },
+            {
+                "id": "342",
+                "name": "Ghanayem",
+                "name_long": "Ghanayem, Asyut",
+                "url": "ghanayem"
+            },
+            {
+                "id": "343",
+                "name": "Manfalut",
+                "name_long": "Manfalut, Asyut",
+                "url": "manfalut"
+            },
+            {
+                "id": "404",
+                "name": "New Assiut",
+                "name_long": "New Assiut, Asyut",
+                "url": "new-assiut"
+            },
+            {
+                "id": "421",
+                "name": "New Tiba",
+                "name_long": "New Tiba, Asyut",
+                "url": "new-tiba"
+            },
+            {
+                "id": "344",
+                "name": "Qusiya",
+                "name_long": "Qusiya, Asyut",
+                "url": "qusiya"
+            },
+            {
+                "id": "345",
+                "name": "Sahel Selim",
+                "name_long": "Sahel Selim, Asyut",
+                "url": "sahel-selim"
+            },
+            {
+                "id": "346",
+                "name": "Sedfa",
+                "name_long": "Sedfa, Asyut",
+                "url": "sedfa"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Beheira",
+        "url": "beheira",
+        "subregions": [
+            {
+                "id": "1",
+                "name": "Abou Homs",
+                "name_long": "Abou Homs, Beheira",
+                "url": "abou-homs"
+            },
+            {
+                "id": "378",
+                "name": "Abuu al-Matamer",
+                "name_long": "Abuu al-Matamer, Beheira",
+                "url": "abuu-al-matamer"
+            },
+            {
+                "id": "6",
+                "name": "Damanhour",
+                "name_long": "Damanhour, Beheira",
+                "url": "damanhour"
+            },
+            {
+                "id": "2",
+                "name": "Delengat",
+                "name_long": "Delengat, Beheira",
+                "url": "delengat"
+            },
+            {
+                "id": "8",
+                "name": "Edko",
+                "name_long": "Edko, Beheira",
+                "url": "edko"
+            },
+            {
+                "id": "9",
+                "name": "Etay al-Barud",
+                "name_long": "Etay al-Barud, Beheira",
+                "url": "etay-al-barud"
+            },
+            {
+                "id": "7",
+                "name": "Hosh Essa",
+                "name_long": "Hosh Essa, Beheira",
+                "url": "hosh-essa"
+            },
+            {
+                "id": "10",
+                "name": "Kafr al-Dawwar",
+                "name_long": "Kafr al-Dawwar, Beheira",
+                "url": "kafr-al-dawwar"
+            },
+            {
+                "id": "11",
+                "name": "Kom Hamadah",
+                "name_long": "Kom Hamadah, Beheira",
+                "url": "kom-hamadah"
+            },
+            {
+                "id": "3",
+                "name": "Mahmoudiyah",
+                "name_long": "Mahmoudiyah, Beheira",
+                "url": "mahmoudiyah"
+            },
+            {
+                "id": "5",
+                "name": "Markaz Badr",
+                "name_long": "Markaz Badr, Beheira",
+                "url": "markaz-badr"
+            },
+            {
+                "id": "127",
+                "name": "Nubariyah",
+                "name_long": "Nubariyah, Beheira",
+                "url": "nubariyah"
+            },
+            {
+                "id": "4",
+                "name": "Rahmaniya",
+                "name_long": "Rahmaniya, Beheira",
+                "url": "rahmaniya"
+            },
+            {
+                "id": "12",
+                "name": "Rashid",
+                "name_long": "Rashid, Beheira",
+                "url": "rashid"
+            },
+            {
+                "id": "13",
+                "name": "Shubrakhit",
+                "name_long": "Shubrakhit, Beheira",
+                "url": "shubrakhit"
+            },
+            {
+                "id": "14",
+                "name": "Wadi al-Natrun",
+                "name_long": "Wadi al-Natrun, Beheira",
+                "url": "wadi-al-natrun"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Beni Suef",
+        "url": "beni-suef",
+        "subregions": [
+            {
+                "id": "240",
+                "name": "Al Feshn",
+                "name_long": "Al Feshn, Beni Suef",
+                "url": "al-feshn"
+            },
+            {
+                "id": "234",
+                "name": "Al Wasty",
+                "name_long": "Al Wasty, Beni Suef",
+                "url": "al-wasty"
+            },
+            {
+                "id": "238",
+                "name": "Beba",
+                "name_long": "Beba, Beni Suef",
+                "url": "beba"
+            },
+            {
+                "id": "235",
+                "name": "Beni Suef City",
+                "name_long": "Beni Suef City, Beni Suef",
+                "url": "beni-suef-city"
+            },
+            {
+                "id": "237",
+                "name": "Ehnasia",
+                "name_long": "Ehnasia, Beni Suef",
+                "url": "ehnasia"
+            },
+            {
+                "id": "236",
+                "name": "Nasser",
+                "name_long": "Nasser, Beni Suef",
+                "url": "nasser"
+            },
+            {
+                "id": "241",
+                "name": "New Beni Suef",
+                "name_long": "New Beni Suef, Beni Suef",
+                "url": "new-beni-suef"
+            },
+            {
+                "id": "239",
+                "name": "Samasta",
+                "name_long": "Samasta, Beni Suef",
+                "url": "samasta"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Cairo",
+        "url": "cairo",
+        "subregions": [
+            {
+                "id": "383",
+                "name": "15 May City",
+                "name_long": "15 May City, Cairo",
+                "url": "15-may-city"
+            },
+            {
+                "id": "292",
+                "name": "Abasiya",
+                "name_long": "Abasiya, Cairo",
+                "url": "abasiya"
+            },
+            {
+                "id": "359",
+                "name": "Ain Shams",
+                "name_long": "Ain Shams, Cairo",
+                "url": "ain-shams"
+            },
+            {
+                "id": "397",
+                "name": "Al Amiriyyah",
+                "name_long": "Al Amiriyyah, Cairo",
+                "url": "al-amiriyyah"
+            },
+            {
+                "id": "389",
+                "name": "Al Manial",
+                "name_long": "Al Manial, Cairo",
+                "url": "al-manial"
+            },
+            {
+                "id": "401",
+                "name": "Almazah",
+                "name_long": "Almazah, Cairo",
+                "url": "almazah"
+            },
+            {
+                "id": "152",
+                "name": "Ataba",
+                "name_long": "Ataba, Cairo",
+                "url": "ataba"
+            },
+            {
+                "id": "149",
+                "name": "Bab al-Shereia",
+                "name_long": "Bab al-Shereia, Cairo",
+                "url": "bab-al-shereia"
+            },
+            {
+                "id": "382",
+                "name": "Badr City",
+                "name_long": "Badr City, Cairo",
+                "url": "Badr-City"
+            },
+            {
+                "id": "143",
+                "name": "Basateen",
+                "name_long": "Basateen, Cairo",
+                "url": "basateen"
+            },
+            {
+                "id": "128",
+                "name": "Boulaq",
+                "name_long": "Boulaq, Cairo",
+                "url": "boulaq"
+            },
+            {
+                "id": "144",
+                "name": "Dar al-Salaam",
+                "name_long": "Dar al-Salaam, Cairo",
+                "url": "dar-al-salaam"
+            },
+            {
+                "id": "151",
+                "name": "Darb al-Ahmar",
+                "name_long": "Darb al-Ahmar, Cairo",
+                "url": "darb-al-ahmar"
+            },
+            {
+                "id": "155",
+                "name": "Darrasa",
+                "name_long": "Darrasa, Cairo",
+                "url": "darrasa"
+            },
+            {
+                "id": "295",
+                "name": "Downtown Cairo",
+                "name_long": "Downtown Cairo, Cairo",
+                "url": "downtown-cairo"
+            },
+            {
+                "id": "423",
+                "name": "El Fostat",
+                "name_long": "El Fostat, Cairo",
+                "url": "el-fostat"
+            },
+            {
+                "id": "386",
+                "name": "Ezbet El Nakhl",
+                "name_long": "Ezbet El Nakhl, Cairo",
+                "url": "ezbet-el-nakhl"
+            },
+            {
+                "id": "154",
+                "name": "Gamaleya",
+                "name_long": "Gamaleya, Cairo",
+                "url": "gamaleya-cairo"
+            },
+            {
+                "id": "129",
+                "name": "Garden City",
+                "name_long": "Garden City, Cairo",
+                "url": "garden-city"
+            },
+            {
+                "id": "424",
+                "name": "Gesr Al Suez",
+                "name_long": "Gesr Al Suez, Cairo",
+                "url": "gesr-al-suez"
+            },
+            {
+                "id": "139",
+                "name": "Hadayek al-Kobba",
+                "name_long": "Hadayek al-Kobba, Cairo",
+                "url": "hadayek-al-kobba"
+            },
+            {
+                "id": "391",
+                "name": "Hadayek Helwan",
+                "name_long": "Hadayek Helwan, Cairo",
+                "url": "hadayek-helwan"
+            },
+            {
+                "id": "263",
+                "name": "Heliopolis",
+                "name_long": "Heliopolis, Cairo",
+                "url": "heliopolis"
+            },
+            {
+                "id": "153",
+                "name": "Helmeya al-Gadeda",
+                "name_long": "Helmeya al-Gadeda, Cairo",
+                "url": "helmeya-al-gadeda"
+            },
+            {
+                "id": "140",
+                "name": "Helmeyat El Zaytoun",
+                "name_long": "Helmeyat El Zaytoun, Cairo",
+                "url": "helmeyat-el-zaytoun"
+            },
+            {
+                "id": "321",
+                "name": "Helwan",
+                "name_long": "Helwan, Cairo",
+                "url": "helwan"
+            },
+            {
+                "id": "286",
+                "name": "Katameya",
+                "name_long": "Katameya, Cairo",
+                "url": "katameya"
+            },
+            {
+                "id": "145",
+                "name": "Ma'sara",
+                "name_long": "Ma'sara, Cairo",
+                "url": "ma-sara"
+            },
+            {
+                "id": "322",
+                "name": "Maadi",
+                "name_long": "Maadi, Cairo",
+                "url": "maadi"
+            },
+            {
+                "id": "381",
+                "name": "Madinaty",
+                "name_long": "Madinaty, Cairo",
+                "url": "Madinaty"
+            },
+            {
+                "id": "131",
+                "name": "Marg",
+                "name_long": "Marg, Cairo",
+                "url": "marg"
+            },
+            {
+                "id": "142",
+                "name": "Masr al-Kadema",
+                "name_long": "Masr al-Kadema, Cairo",
+                "url": "masr-al-kadema"
+            },
+            {
+                "id": "132",
+                "name": "Matareya",
+                "name_long": "Matareya, Cairo",
+                "url": "matareya-cairo"
+            },
+            {
+                "id": "269",
+                "name": "Mokattam",
+                "name_long": "Mokattam, Cairo",
+                "url": "mokattam"
+            },
+            {
+                "id": "147",
+                "name": "Moski",
+                "name_long": "Moski, Cairo",
+                "url": "moski"
+            },
+            {
+                "id": "385",
+                "name": "Mostakbal City",
+                "name_long": "Mostakbal City, Cairo",
+                "url": "mostakbal-city"
+            },
+            {
+                "id": "332",
+                "name": "Nasr City",
+                "name_long": "Nasr City, Cairo",
+                "url": "nasr-city"
+            },
+            {
+                "id": "288",
+                "name": "New Cairo - El Tagamoa",
+                "name_long": "New Cairo - El Tagamoa, Cairo",
+                "url": "el-tagamoa"
+            },
+            {
+                "id": "408",
+                "name": "New Capital City",
+                "name_long": "New Capital City, Cairo",
+                "url": "new-capital-city"
+            },
+            {
+                "id": "393",
+                "name": "New Heliopolis",
+                "name_long": "New Heliopolis, Cairo",
+                "url": "new-heliopolis"
+            },
+            {
+                "id": "333",
+                "name": "New Nozha",
+                "name_long": "New Nozha, Cairo",
+                "url": "new-nozha"
+            },
+            {
+                "id": "319",
+                "name": "Obour City",
+                "name_long": "Obour City, Cairo",
+                "url": "obour-city"
+            },
+            {
+                "id": "290",
+                "name": "Qasr al-Nil",
+                "name_long": "Qasr al-Nil, Cairo",
+                "url": "qasr-al-nil"
+            },
+            {
+                "id": "275",
+                "name": "Ramses + Ramses Extension",
+                "name_long": "Ramses + Ramses Extension, Cairo",
+                "url": "ramses-ramses-extension"
+            },
+            {
+                "id": "287",
+                "name": "Rehab City",
+                "name_long": "Rehab City, Cairo",
+                "url": "rehab-city"
+            },
+            {
+                "id": "138",
+                "name": "Rod al-Farag",
+                "name_long": "Rod al-Farag, Cairo",
+                "url": "rod-al-farag"
+            },
+            {
+                "id": "133",
+                "name": "Salam City",
+                "name_long": "Salam City, Cairo",
+                "url": "salam-city"
+            },
+            {
+                "id": "150",
+                "name": "Sayeda Zeinab",
+                "name_long": "Sayeda Zeinab, Cairo",
+                "url": "sayeda-zeinab"
+            },
+            {
+                "id": "137",
+                "name": "Sharabeya",
+                "name_long": "Sharabeya, Cairo",
+                "url": "sharabeya"
+            },
+            {
+                "id": "380",
+                "name": "Sheraton",
+                "name_long": "Sheraton, Cairo",
+                "url": "Sheraton"
+            },
+            {
+                "id": "320",
+                "name": "Shorouk City",
+                "name_long": "Shorouk City, Cairo",
+                "url": "shorouk-city"
+            },
+            {
+                "id": "134",
+                "name": "Shubra",
+                "name_long": "Shubra, Cairo",
+                "url": "shubra"
+            },
+            {
+                "id": "146",
+                "name": "Tebeen",
+                "name_long": "Tebeen, Cairo",
+                "url": "tebeen"
+            },
+            {
+                "id": "323",
+                "name": "Tura",
+                "name_long": "Tura, Cairo",
+                "url": "tura"
+            },
+            {
+                "id": "130",
+                "name": "Waili",
+                "name_long": "Waili, Cairo",
+                "url": "waili"
+            },
+            {
+                "id": "398",
+                "name": "Zahraa Al Maadi",
+                "name_long": "Zahraa Al Maadi, Cairo",
+                "url": "zahraa-al-maadi"
+            },
+            {
+                "id": "289",
+                "name": "Zamalek",
+                "name_long": "Zamalek, Cairo",
+                "url": "zamalek"
+            },
+            {
+                "id": "136",
+                "name": "Zawya al-Hamra",
+                "name_long": "Zawya al-Hamra, Cairo",
+                "url": "zawya-al-hamra"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Dakahlia",
+        "url": "dakahlia",
+        "subregions": [
+            {
+                "id": "363",
+                "name": "Aga",
+                "name_long": "Aga, Dakahlia",
+                "url": "aga"
+            },
+            {
+                "id": "158",
+                "name": "Akhtab",
+                "name_long": "Akhtab, Dakahlia",
+                "url": "akhtab"
+            },
+            {
+                "id": "369",
+                "name": "Bani Ubayd",
+                "name_long": "Bani Ubayd, Dakahlia",
+                "url": "bani-ubayd"
+            },
+            {
+                "id": "370",
+                "name": "Belqas",
+                "name_long": "Belqas, Dakahlia",
+                "url": "belqas"
+            },
+            {
+                "id": "371",
+                "name": "Dikirnis",
+                "name_long": "Dikirnis, Dakahlia",
+                "url": "dikirnis"
+            },
+            {
+                "id": "419",
+                "name": "El Kordy",
+                "name_long": "El Kordy, Dakahlia",
+                "url": "el-kordy"
+            },
+            {
+                "id": "159",
+                "name": "Gamasa",
+                "name_long": "Gamasa, Dakahlia",
+                "url": "gamasa"
+            },
+            {
+                "id": "365",
+                "name": "Mansura",
+                "name_long": "Mansura, Dakahlia",
+                "url": "mansura"
+            },
+            {
+                "id": "366",
+                "name": "Manzala",
+                "name_long": "Manzala, Dakahlia",
+                "url": "manzala"
+            },
+            {
+                "id": "364",
+                "name": "Markaz El Gamaleya",
+                "name_long": "Markaz El Gamaleya, Dakahlia",
+                "url": "markaz-el-gamaleya"
+            },
+            {
+                "id": "367",
+                "name": "Markaz El Matareya",
+                "name_long": "Markaz El Matareya, Dakahlia",
+                "url": "markaz-el-matareya"
+            },
+            {
+                "id": "372",
+                "name": "Minat al-Nasr",
+                "name_long": "Minat al-Nasr, Dakahlia",
+                "url": "minat-al-nasr"
+            },
+            {
+                "id": "373",
+                "name": "Mit Ghamr",
+                "name_long": "Mit Ghamr, Dakahlia",
+                "url": "mit-ghamr"
+            },
+            {
+                "id": "374",
+                "name": "Mit Slseel",
+                "name_long": "Mit Slseel, Dakahlia",
+                "url": "mit-slseel"
+            },
+            {
+                "id": "375",
+                "name": "Nabaruh",
+                "name_long": "Nabaruh, Dakahlia",
+                "url": "nabaruh"
+            },
+            {
+                "id": "420",
+                "name": "New Mansoura",
+                "name_long": "New Mansoura, Dakahlia",
+                "url": "new-mansoura"
+            },
+            {
+                "id": "376",
+                "name": "Shirbin",
+                "name_long": "Shirbin, Dakahlia",
+                "url": "shirbin"
+            },
+            {
+                "id": "368",
+                "name": "Sinbillawain",
+                "name_long": "Sinbillawain, Dakahlia",
+                "url": "sinbillawain"
+            },
+            {
+                "id": "377",
+                "name": "Talkha",
+                "name_long": "Talkha, Dakahlia",
+                "url": "talkha"
+            },
+            {
+                "id": "157",
+                "name": "Tama al-Amdeed",
+                "name_long": "Tama al-Amdeed, Dakahlia",
+                "url": "tama-al-amdeed"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Damietta",
+        "url": "dameitta",
+        "subregions": [
+            {
+                "id": "242",
+                "name": "Damietta City",
+                "name_long": "Damietta City, Damietta",
+                "url": "damietta-city"
+            },
+            {
+                "id": "244",
+                "name": "Ezbet al-Burj",
+                "name_long": "Ezbet al-Burj, Damietta",
+                "url": "ezbet-al-burj"
+            },
+            {
+                "id": "249",
+                "name": "Fareskour",
+                "name_long": "Fareskour, Damietta",
+                "url": "fareskour"
+            },
+            {
+                "id": "247",
+                "name": "Kafr al-Bateekh",
+                "name_long": "Kafr al-Bateekh, Damietta",
+                "url": "kafr-al-bateekh"
+            },
+            {
+                "id": "246",
+                "name": "Kafr Saad",
+                "name_long": "Kafr Saad, Damietta",
+                "url": "kafr-saad"
+            },
+            {
+                "id": "250",
+                "name": "Markaz El Rodah",
+                "name_long": "Markaz El Rodah, Damietta",
+                "url": "markaz-el-rodah"
+            },
+            {
+                "id": "248",
+                "name": "Mit Abughalb",
+                "name_long": "Mit Abughalb, Damietta",
+                "url": "mit-abughalb"
+            },
+            {
+                "id": "245",
+                "name": "New Damietta",
+                "name_long": "New Damietta, Damietta",
+                "url": "new-damietta"
+            },
+            {
+                "id": "243",
+                "name": "Ras al-Bar",
+                "name_long": "Ras al-Bar, Damietta",
+                "url": "ras-al-bar"
+            },
+            {
+                "id": "252",
+                "name": "Saro",
+                "name_long": "Saro, Damietta",
+                "url": "saro"
+            },
+            {
+                "id": "251",
+                "name": "Zarqa",
+                "name_long": "Zarqa, Damietta",
+                "url": "zarqa"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Fayoum",
+        "url": "fayoum",
+        "subregions": [
+            {
+                "id": "73",
+                "name": "Atssa",
+                "name_long": "Atssa, Fayoum",
+                "url": "atssa"
+            },
+            {
+                "id": "74",
+                "name": "Fayoum City",
+                "name_long": "Fayoum City, Fayoum",
+                "url": "fayoum-city"
+            },
+            {
+                "id": "72",
+                "name": "Ibshway",
+                "name_long": "Ibshway, Fayoum",
+                "url": "ibshway"
+            },
+            {
+                "id": "160",
+                "name": "New Fayoum",
+                "name_long": "New Fayoum, Fayoum",
+                "url": "new-fayoum"
+            },
+            {
+                "id": "75",
+                "name": "Sinnuras",
+                "name_long": "Sinnuras, Fayoum",
+                "url": "sinnuras"
+            },
+            {
+                "id": "76",
+                "name": "Tamiya",
+                "name_long": "Tamiya, Fayoum",
+                "url": "tamiya"
+            },
+            {
+                "id": "161",
+                "name": "Yusuf al-Sadiq",
+                "name_long": "Yusuf al-Sadiq, Fayoum",
+                "url": "yusuf-al-sadiq"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Gharbia",
+        "url": "gharbia",
+        "subregions": [
+            {
+                "id": "85",
+                "name": "Basyoun",
+                "name_long": "Basyoun, Gharbia",
+                "url": "basyoun"
+            },
+            {
+                "id": "86",
+                "name": "Kafr al-Zayat",
+                "name_long": "Kafr al-Zayat, Gharbia",
+                "url": "kafr-al-zayat"
+            },
+            {
+                "id": "87",
+                "name": "Mahalla al-Kobra",
+                "name_long": "Mahalla al-Kobra, Gharbia",
+                "url": "mahalla-al-kobra"
+            },
+            {
+                "id": "82",
+                "name": "Qutour",
+                "name_long": "Qutour, Gharbia",
+                "url": "qutour"
+            },
+            {
+                "id": "81",
+                "name": "Samanoud",
+                "name_long": "Samanoud, Gharbia",
+                "url": "samanoud"
+            },
+            {
+                "id": "83",
+                "name": "Santa",
+                "name_long": "Santa, Gharbia",
+                "url": "santa"
+            },
+            {
+                "id": "80",
+                "name": "Tanta",
+                "name_long": "Tanta, Gharbia",
+                "url": "tanta"
+            },
+            {
+                "id": "84",
+                "name": "Zefta",
+                "name_long": "Zefta, Gharbia",
+                "url": "zefta"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Giza",
+        "url": "giza",
+        "subregions": [
+            {
+                "id": "217",
+                "name": "6th of October",
+                "name_long": "6th of October, Giza",
+                "url": "6th-of-october"
+            },
+            {
+                "id": "201",
+                "name": "Abu Rawash",
+                "name_long": "Abu Rawash, Giza",
+                "url": "abu-rawash"
+            },
+            {
+                "id": "195",
+                "name": "Agouza",
+                "name_long": "Agouza, Giza",
+                "url": "agouza"
+            },
+            {
+                "id": "414",
+                "name": "Ard El Lewa",
+                "name_long": "Ard El Lewa, Giza",
+                "url": "ard-el-lewa"
+            },
+            {
+                "id": "227",
+                "name": "Badrasheen",
+                "name_long": "Badrasheen, Giza",
+                "url": "badrasheen"
+            },
+            {
+                "id": "200",
+                "name": "Baragil",
+                "name_long": "Baragil, Giza",
+                "url": "baragil"
+            },
+            {
+                "id": "199",
+                "name": "Bashtil",
+                "name_long": "Bashtil, Giza",
+                "url": "bashtil"
+            },
+            {
+                "id": "208",
+                "name": "Boulaq Dakrour",
+                "name_long": "Boulaq Dakrour, Giza",
+                "url": "boulaq-dakrour"
+            },
+            {
+                "id": "219",
+                "name": "Dahab Island and Coldair",
+                "name_long": "Dahab Island and Coldair, Giza",
+                "url": "dahab-island-and-coldair"
+            },
+            {
+                "id": "228",
+                "name": "Dahshur",
+                "name_long": "Dahshur, Giza",
+                "url": "dahshur"
+            },
+            {
+                "id": "210",
+                "name": "Dokki",
+                "name_long": "Dokki, Giza",
+                "url": "dokki"
+            },
+            {
+                "id": "411",
+                "name": "El Ayyat",
+                "name_long": "El Ayyat, Giza",
+                "url": "el-ayyat"
+            },
+            {
+                "id": "213",
+                "name": "Faisal",
+                "name_long": "Faisal, Giza",
+                "url": "faisal"
+            },
+            {
+                "id": "211",
+                "name": "Giza District",
+                "name_long": "Giza District, Giza",
+                "url": "giza-district"
+            },
+            {
+                "id": "417",
+                "name": "Hadayek 6th of October",
+                "name_long": "Hadayek 6th of October, Giza",
+                "url": "hadayek-october"
+            },
+            {
+                "id": "230",
+                "name": "Hadayek al-Ahram",
+                "name_long": "Hadayek al-Ahram, Giza",
+                "url": "hadayek-al-ahram"
+            },
+            {
+                "id": "212",
+                "name": "Haram",
+                "name_long": "Haram, Giza",
+                "url": "haram"
+            },
+            {
+                "id": "224",
+                "name": "Hawamdeya",
+                "name_long": "Hawamdeya, Giza",
+                "url": "hawamdeya"
+            },
+            {
+                "id": "197",
+                "name": "Imbaba",
+                "name_long": "Imbaba, Giza",
+                "url": "imbaba"
+            },
+            {
+                "id": "202",
+                "name": "Kerdasa",
+                "name_long": "Kerdasa, Giza",
+                "url": "kerdasa"
+            },
+            {
+                "id": "196",
+                "name": "Kit Kat",
+                "name_long": "Kit Kat, Giza",
+                "url": "kit-kat"
+            },
+            {
+                "id": "422",
+                "name": "Manial Shiha",
+                "name_long": "Manial Shiha, Giza",
+                "url": "manial-shiha"
+            },
+            {
+                "id": "204",
+                "name": "Mansuriyya",
+                "name_long": "Mansuriyya, Giza",
+                "url": "mansuriyya"
+            },
+            {
+                "id": "233",
+                "name": "Markaz al-Giza",
+                "name_long": "Markaz al-Giza, Giza",
+                "url": "markaz-al-giza"
+            },
+            {
+                "id": "384",
+                "name": "Maryotaya",
+                "name_long": "Maryotaya, Giza",
+                "url": "maryotaya"
+            },
+            {
+                "id": "194",
+                "name": "Mohandessin",
+                "name_long": "Mohandessin, Giza",
+                "url": "mohandessin"
+            },
+            {
+                "id": "221",
+                "name": "Moneeb",
+                "name_long": "Moneeb, Giza",
+                "url": "moneeb"
+            },
+            {
+                "id": "206",
+                "name": "Nahia",
+                "name_long": "Nahia, Giza",
+                "url": "nahia"
+            },
+            {
+                "id": "203",
+                "name": "Oseem",
+                "name_long": "Oseem, Giza",
+                "url": "oseem"
+            },
+            {
+                "id": "229",
+                "name": "Saf",
+                "name_long": "Saf, Giza",
+                "url": "saf"
+            },
+            {
+                "id": "207",
+                "name": "Saft El Laban",
+                "name_long": "Saft El Laban, Giza",
+                "url": "saft-el-laban"
+            },
+            {
+                "id": "205",
+                "name": "Sheikh Zayed",
+                "name_long": "Sheikh Zayed, Giza",
+                "url": "sheikh-zayed"
+            },
+            {
+                "id": "222",
+                "name": "Tersa",
+                "name_long": "Tersa, Giza",
+                "url": "tersa"
+            },
+            {
+                "id": "198",
+                "name": "Warraq",
+                "name_long": "Warraq, Giza",
+                "url": "warraq"
+            },
+            {
+                "id": "413",
+                "name": "West Somid",
+                "name_long": "West Somid, Giza",
+                "url": "west-somid"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Ismailia",
+        "url": "ismailia",
+        "subregions": [
+            {
+                "id": "92",
+                "name": "Abu Swear",
+                "name_long": "Abu Swear, Ismailia",
+                "url": "abu-swear"
+            },
+            {
+                "id": "89",
+                "name": "Fayed",
+                "name_long": "Fayed, Ismailia",
+                "url": "fayed"
+            },
+            {
+                "id": "162",
+                "name": "Ismailia City",
+                "name_long": "Ismailia City, Ismailia",
+                "url": "ismailia-city"
+            },
+            {
+                "id": "90",
+                "name": "Kantara East",
+                "name_long": "Kantara East, Ismailia",
+                "url": "kantara-east"
+            },
+            {
+                "id": "91",
+                "name": "Kantara West",
+                "name_long": "Kantara West, Ismailia",
+                "url": "kantara-west"
+            },
+            {
+                "id": "93",
+                "name": "Qassaseen",
+                "name_long": "Qassaseen, Ismailia",
+                "url": "qassaseen"
+            },
+            {
+                "id": "88",
+                "name": "Tal al-Kebeer",
+                "name_long": "Tal al-Kebeer, Ismailia",
+                "url": "tal-al-kebeer"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Kafr al-Sheikh",
+        "url": "kafr-el-sheikh",
+        "subregions": [
+            {
+                "id": "392",
+                "name": "Baltim",
+                "name_long": "Baltim, Kafr al-Sheikh",
+                "url": "baltim"
+            },
+            {
+                "id": "64",
+                "name": "Bella",
+                "name_long": "Bella, Kafr al-Sheikh",
+                "url": "bella"
+            },
+            {
+                "id": "68",
+                "name": "Brolos",
+                "name_long": "Brolos, Kafr al-Sheikh",
+                "url": "brolos"
+            },
+            {
+                "id": "63",
+                "name": "Desouk",
+                "name_long": "Desouk, Kafr al-Sheikh",
+                "url": "desouk"
+            },
+            {
+                "id": "71",
+                "name": "Fouh",
+                "name_long": "Fouh, Kafr al-Sheikh",
+                "url": "fouh"
+            },
+            {
+                "id": "67",
+                "name": "Hamoul",
+                "name_long": "Hamoul, Kafr al-Sheikh",
+                "url": "hamoul"
+            },
+            {
+                "id": "163",
+                "name": "Kafr al-Sheikh City",
+                "name_long": "Kafr al-Sheikh City, Kafr al-Sheikh",
+                "url": "kafr-al-sheikh-city"
+            },
+            {
+                "id": "66",
+                "name": "Motobas",
+                "name_long": "Motobas, Kafr al-Sheikh",
+                "url": "motobas"
+            },
+            {
+                "id": "65",
+                "name": "Qaleen",
+                "name_long": "Qaleen, Kafr al-Sheikh",
+                "url": "qaleen"
+            },
+            {
+                "id": "70",
+                "name": "Riyadh",
+                "name_long": "Riyadh, Kafr al-Sheikh",
+                "url": "riyadh"
+            },
+            {
+                "id": "69",
+                "name": "Sidi Salem",
+                "name_long": "Sidi Salem, Kafr al-Sheikh",
+                "url": "sidi-salem"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Luxor",
+        "url": "luxor",
+        "subregions": [
+            {
+                "id": "334",
+                "name": "Armant",
+                "name_long": "Armant, Luxor",
+                "url": "armant"
+            },
+            {
+                "id": "335",
+                "name": "Bayadeya",
+                "name_long": "Bayadeya, Luxor",
+                "url": "bayadeya"
+            },
+            {
+                "id": "336",
+                "name": "Isna",
+                "name_long": "Isna, Luxor",
+                "url": "isna"
+            },
+            {
+                "id": "167",
+                "name": "Luxor City",
+                "name_long": "Luxor City, Luxor",
+                "url": "luxor-city"
+            },
+            {
+                "id": "169",
+                "name": "Qurna",
+                "name_long": "Qurna, Luxor",
+                "url": "qurna"
+            },
+            {
+                "id": "170",
+                "name": "Tod",
+                "name_long": "Tod, Luxor",
+                "url": "tod"
+            },
+            {
+                "id": "168",
+                "name": "Zinnia",
+                "name_long": "Zinnia, Luxor",
+                "url": "zinnia"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Matruh",
+        "url": "matruh",
+        "subregions": [
+            {
+                "id": "172",
+                "name": "Alamein",
+                "name_long": "Alamein, Matruh",
+                "url": "alamein"
+            },
+            {
+                "id": "176",
+                "name": "Barany",
+                "name_long": "Barany, Matruh",
+                "url": "barany"
+            },
+            {
+                "id": "173",
+                "name": "Dabaa",
+                "name_long": "Dabaa, Matruh",
+                "url": "dabaa"
+            },
+            {
+                "id": "171",
+                "name": "Hammam",
+                "name_long": "Hammam, Matruh",
+                "url": "hammam"
+            },
+            {
+                "id": "174",
+                "name": "Marsa Matrouh",
+                "name_long": "Marsa Matrouh, Matruh",
+                "url": "marsa-matrouh"
+            },
+            {
+                "id": "175",
+                "name": "Nagela",
+                "name_long": "Nagela, Matruh",
+                "url": "nagela"
+            },
+            {
+                "id": "387",
+                "name": "North Coast",
+                "name_long": "North Coast, Matruh",
+                "url": "north-coast"
+            },
+            {
+                "id": "177",
+                "name": "Salloum",
+                "name_long": "Salloum, Matruh",
+                "url": "salloum"
+            },
+            {
+                "id": "178",
+                "name": "Siwa",
+                "name_long": "Siwa, Matruh",
+                "url": "siwa"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Minya",
+        "url": "minya",
+        "subregions": [
+            {
+                "id": "52",
+                "name": "Abu Qurqas",
+                "name_long": "Abu Qurqas, Minya",
+                "url": "abu-qurqas"
+            },
+            {
+                "id": "46",
+                "name": "Adwa",
+                "name_long": "Adwa, Minya",
+                "url": "adwa"
+            },
+            {
+                "id": "43",
+                "name": "Beni Mazar",
+                "name_long": "Beni Mazar, Minya",
+                "url": "beni-mazar"
+            },
+            {
+                "id": "44",
+                "name": "Deir Mawas",
+                "name_long": "Deir Mawas, Minya",
+                "url": "deir-mawas"
+            },
+            {
+                "id": "48",
+                "name": "Maghagha",
+                "name_long": "Maghagha, Minya",
+                "url": "maghagha"
+            },
+            {
+                "id": "49",
+                "name": "Malawi",
+                "name_long": "Malawi, Minya",
+                "url": "malawi"
+            },
+            {
+                "id": "47",
+                "name": "Matay",
+                "name_long": "Matay, Minya",
+                "url": "matay"
+            },
+            {
+                "id": "50",
+                "name": "Minya City",
+                "name_long": "Minya City, Minya",
+                "url": "minya-city"
+            },
+            {
+                "id": "51",
+                "name": "New Minya",
+                "name_long": "New Minya, Minya",
+                "url": "new-minya"
+            },
+            {
+                "id": "45",
+                "name": "Samalut",
+                "name_long": "Samalut, Minya",
+                "url": "samalut"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Monufia",
+        "url": "menoufia",
+        "subregions": [
+            {
+                "id": "53",
+                "name": "Ashmon",
+                "name_long": "Ashmon, Monufia",
+                "url": "ashmon"
+            },
+            {
+                "id": "54",
+                "name": "Bagour",
+                "name_long": "Bagour, Monufia",
+                "url": "bagour"
+            },
+            {
+                "id": "55",
+                "name": "Berket al-Sabaa",
+                "name_long": "Berket al-Sabaa, Monufia",
+                "url": "berket-al-sabaa"
+            },
+            {
+                "id": "56",
+                "name": "Menouf",
+                "name_long": "Menouf, Monufia",
+                "url": "menouf"
+            },
+            {
+                "id": "62",
+                "name": "Quesna",
+                "name_long": "Quesna, Monufia",
+                "url": "quesna"
+            },
+            {
+                "id": "57",
+                "name": "Sadat",
+                "name_long": "Sadat, Monufia",
+                "url": "sadat"
+            },
+            {
+                "id": "58",
+                "name": "Sers al-Lyan",
+                "name_long": "Sers al-Lyan, Monufia",
+                "url": "sers-al-lyan"
+            },
+            {
+                "id": "61",
+                "name": "Shebin al-Koum",
+                "name_long": "Shebin al-Koum, Monufia",
+                "url": "shebin-al-koum"
+            },
+            {
+                "id": "60",
+                "name": "Shohadaa",
+                "name_long": "Shohadaa, Monufia",
+                "url": "shohadaa"
+            },
+            {
+                "id": "59",
+                "name": "Tala",
+                "name_long": "Tala, Monufia",
+                "url": "tala"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "name": "New Valley",
+        "url": "new-valley",
+        "subregions": [
+            {
+                "id": "257",
+                "name": "Balat",
+                "name_long": "Balat, New Valley",
+                "url": "balat"
+            },
+            {
+                "id": "254",
+                "name": "Dakhla",
+                "name_long": "Dakhla, New Valley",
+                "url": "dakhla"
+            },
+            {
+                "id": "258",
+                "name": "Farafra",
+                "name_long": "Farafra, New Valley",
+                "url": "farafra"
+            },
+            {
+                "id": "253",
+                "name": "Kharga",
+                "name_long": "Kharga, New Valley",
+                "url": "kharga"
+            },
+            {
+                "id": "256",
+                "name": "Mut",
+                "name_long": "Mut, New Valley",
+                "url": "mut"
+            },
+            {
+                "id": "255",
+                "name": "Paris",
+                "name_long": "Paris, New Valley",
+                "url": "paris"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name": "North Sinai",
+        "url": "north-sinai",
+        "subregions": [
+            {
+                "id": "259",
+                "name": "Arish",
+                "name_long": "Arish, North Sinai",
+                "url": "arish"
+            },
+            {
+                "id": "260",
+                "name": "Bir al-Abed",
+                "name_long": "Bir al-Abed, North Sinai",
+                "url": "bir-al-abed"
+            },
+            {
+                "id": "262",
+                "name": "Hasana",
+                "name_long": "Hasana, North Sinai",
+                "url": "hasana"
+            },
+            {
+                "id": "261",
+                "name": "Nakhl",
+                "name_long": "Nakhl, North Sinai",
+                "url": "nakhl"
+            },
+            {
+                "id": "264",
+                "name": "Rafah",
+                "name_long": "Rafah, North Sinai",
+                "url": "rafah"
+            },
+            {
+                "id": "293",
+                "name": "Sheikh Zoweyd",
+                "name_long": "Sheikh Zoweyd, North Sinai",
+                "url": "sheikh-zoweyd"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Port Said",
+        "url": "port-said",
+        "subregions": [
+            {
+                "id": "330",
+                "name": "Arab District",
+                "name_long": "Arab District, Port Said",
+                "url": "arab-district"
+            },
+            {
+                "id": "327",
+                "name": "Dawahy District",
+                "name_long": "Dawahy District, Port Said",
+                "url": "dawahy-district"
+            },
+            {
+                "id": "325",
+                "name": "Ganoub District",
+                "name_long": "Ganoub District, Port Said",
+                "url": "ganoub-district"
+            },
+            {
+                "id": "329",
+                "name": "Manakh District",
+                "name_long": "Manakh District, Port Said",
+                "url": "manakh-district"
+            },
+            {
+                "id": "331",
+                "name": "Port Fouad",
+                "name_long": "Port Fouad, Port Said",
+                "url": "port-fouad"
+            },
+            {
+                "id": "328",
+                "name": "Sharq District",
+                "name_long": "Sharq District, Port Said",
+                "url": "sharq-district"
+            },
+            {
+                "id": "326",
+                "name": "Zohour District",
+                "name_long": "Zohour District, Port Said",
+                "url": "zohour-district"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Qalyubia",
+        "url": "qalyubia",
+        "subregions": [
+            {
+                "id": "164",
+                "name": "Bahtim",
+                "name_long": "Bahtim, Qalyubia",
+                "url": "bahtim"
+            },
+            {
+                "id": "19",
+                "name": "Banha",
+                "name_long": "Banha, Qalyubia",
+                "url": "banha"
+            },
+            {
+                "id": "20",
+                "name": "Kafr Shukr",
+                "name_long": "Kafr Shukr, Qalyubia",
+                "url": "kafr-shukr"
+            },
+            {
+                "id": "15",
+                "name": "Khanka",
+                "name_long": "Khanka, Qalyubia",
+                "url": "khanka"
+            },
+            {
+                "id": "16",
+                "name": "Khosous",
+                "name_long": "Khosous, Qalyubia",
+                "url": "khosous"
+            },
+            {
+                "id": "415",
+                "name": "Musturad",
+                "name_long": "Musturad, Qalyubia",
+                "url": "musturad"
+            },
+            {
+                "id": "21",
+                "name": "Qaha",
+                "name_long": "Qaha, Qalyubia",
+                "url": "qaha"
+            },
+            {
+                "id": "22",
+                "name": "Qalyub",
+                "name_long": "Qalyub, Qalyubia",
+                "url": "qalyub"
+            },
+            {
+                "id": "17",
+                "name": "Qanater al-Khairia",
+                "name_long": "Qanater al-Khairia, Qalyubia",
+                "url": "qanater-al-khairia"
+            },
+            {
+                "id": "24",
+                "name": "Shebin al-Qanater",
+                "name_long": "Shebin al-Qanater, Qalyubia",
+                "url": "shebin-al-qanater"
+            },
+            {
+                "id": "23",
+                "name": "Shubra al-Khaimah",
+                "name_long": "Shubra al-Khaimah, Qalyubia",
+                "url": "shubra-al-khaimah"
+            },
+            {
+                "id": "25",
+                "name": "Tookh",
+                "name_long": "Tookh, Qalyubia",
+                "url": "tookh"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Qena",
+        "url": "qena",
+        "subregions": [
+            {
+                "id": "266",
+                "name": "Abu Tisht",
+                "name_long": "Abu Tisht, Qena",
+                "url": "abu-tisht"
+            },
+            {
+                "id": "270",
+                "name": "Dishna",
+                "name_long": "Dishna, Qena",
+                "url": "dishna"
+            },
+            {
+                "id": "267",
+                "name": "Farshout",
+                "name_long": "Farshout, Qena",
+                "url": "farshout"
+            },
+            {
+                "id": "271",
+                "name": "Keft",
+                "name_long": "Keft, Qena",
+                "url": "keft"
+            },
+            {
+                "id": "268",
+                "name": "Nag Hammadi",
+                "name_long": "Nag Hammadi, Qena",
+                "url": "nag-hammadi"
+            },
+            {
+                "id": "273",
+                "name": "Nakada",
+                "name_long": "Nakada, Qena",
+                "url": "nakada"
+            },
+            {
+                "id": "265",
+                "name": "Qena City",
+                "name_long": "Qena City, Qena",
+                "url": "qena-city"
+            },
+            {
+                "id": "272",
+                "name": "Quos",
+                "name_long": "Quos, Qena",
+                "url": "quos"
+            },
+            {
+                "id": "315",
+                "name": "Wakf",
+                "name_long": "Wakf, Qena",
+                "url": "wakf"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Red Sea",
+        "url": "red-sea",
+        "subregions": [
+            {
+                "id": "409",
+                "name": "Gouna",
+                "name_long": "Gouna, Red Sea",
+                "url": "gouna"
+            },
+            {
+                "id": "184",
+                "name": "Halayeb & Shalateen",
+                "name_long": "Halayeb & Shalateen, Red Sea",
+                "url": "halayeb-shalateen"
+            },
+            {
+                "id": "179",
+                "name": "Hurghada",
+                "name_long": "Hurghada, Red Sea",
+                "url": "hurghada"
+            },
+            {
+                "id": "183",
+                "name": "Marsa Alam",
+                "name_long": "Marsa Alam, Red Sea",
+                "url": "marsa-alam"
+            },
+            {
+                "id": "181",
+                "name": "Qusair",
+                "name_long": "Qusair, Red Sea",
+                "url": "qusair"
+            },
+            {
+                "id": "180",
+                "name": "Ras Gharib",
+                "name_long": "Ras Gharib, Red Sea",
+                "url": "ras-gharib"
+            },
+            {
+                "id": "182",
+                "name": "Safaga",
+                "name_long": "Safaga, Red Sea",
+                "url": "safaga"
+            },
+            {
+                "id": "399",
+                "name": "Sahl Hasheesh",
+                "name_long": "Sahl Hasheesh, Red Sea",
+                "url": "sahl-hasheesh"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Sharqia",
+        "url": "sharqia",
+        "subregions": [
+            {
+                "id": "40",
+                "name": "10th of Ramadan",
+                "name_long": "10th of Ramadan, Sharqia",
+                "url": "10th-of-ramadan"
+            },
+            {
+                "id": "26",
+                "name": "Abu Hammad",
+                "name_long": "Abu Hammad, Sharqia",
+                "url": "abu-hammad"
+            },
+            {
+                "id": "27",
+                "name": "Abu Kabir",
+                "name_long": "Abu Kabir, Sharqia",
+                "url": "abu-kabir"
+            },
+            {
+                "id": "30",
+                "name": "Alqnayat",
+                "name_long": "Alqnayat, Sharqia",
+                "url": "alqnayat"
+            },
+            {
+                "id": "33",
+                "name": "Awlad Saqr",
+                "name_long": "Awlad Saqr, Sharqia",
+                "url": "awlad-saqr"
+            },
+            {
+                "id": "35",
+                "name": "Bilbeis",
+                "name_long": "Bilbeis, Sharqia",
+                "url": "bilbeis"
+            },
+            {
+                "id": "36",
+                "name": "Deyerb Negm",
+                "name_long": "Deyerb Negm, Sharqia",
+                "url": "deyerb-negm"
+            },
+            {
+                "id": "37",
+                "name": "Faqous",
+                "name_long": "Faqous, Sharqia",
+                "url": "faqous"
+            },
+            {
+                "id": "38",
+                "name": "Hihya",
+                "name_long": "Hihya, Sharqia",
+                "url": "hihya"
+            },
+            {
+                "id": "28",
+                "name": "Husseiniya",
+                "name_long": "Husseiniya, Sharqia",
+                "url": "husseiniya"
+            },
+            {
+                "id": "29",
+                "name": "Ibrahemyah",
+                "name_long": "Ibrahemyah, Sharqia",
+                "url": "ibrahemyah"
+            },
+            {
+                "id": "39",
+                "name": "Kafr Saqr",
+                "name_long": "Kafr Saqr, Sharqia",
+                "url": "kafr-saqr"
+            },
+            {
+                "id": "41",
+                "name": "Mashtool al-Souk",
+                "name_long": "Mashtool al-Souk, Sharqia",
+                "url": "mashtool-al-souk"
+            },
+            {
+                "id": "42",
+                "name": "Minya al-Qamh",
+                "name_long": "Minya al-Qamh, Sharqia",
+                "url": "minya-al-qamh"
+            },
+            {
+                "id": "32",
+                "name": "New Salhia",
+                "name_long": "New Salhia, Sharqia",
+                "url": "new-salhia"
+            },
+            {
+                "id": "31",
+                "name": "Qareen",
+                "name_long": "Qareen, Sharqia",
+                "url": "qareen"
+            },
+            {
+                "id": "34",
+                "name": "Zagazig",
+                "name_long": "Zagazig, Sharqia",
+                "url": "zagazig"
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Sohag",
+        "url": "sohag",
+        "subregions": [
+            {
+                "id": "316",
+                "name": "Akhmim",
+                "name_long": "Akhmim, Sohag",
+                "url": "akhmim"
+            },
+            {
+                "id": "285",
+                "name": "Alasirat",
+                "name_long": "Alasirat, Sohag",
+                "url": "alasirat"
+            },
+            {
+                "id": "276",
+                "name": "Baliana",
+                "name_long": "Baliana, Sohag",
+                "url": "baliana"
+            },
+            {
+                "id": "277",
+                "name": "Girga",
+                "name_long": "Girga, Sohag",
+                "url": "girga"
+            },
+            {
+                "id": "283",
+                "name": "Maragha",
+                "name_long": "Maragha, Sohag",
+                "url": "maragha"
+            },
+            {
+                "id": "278",
+                "name": "Markaz Dar El Salam",
+                "name_long": "Markaz Dar El Salam, Sohag",
+                "url": "dar-es-salam"
+            },
+            {
+                "id": "279",
+                "name": "Markaz Juhaynah",
+                "name_long": "Markaz Juhaynah, Sohag",
+                "url": "juhaynah"
+            },
+            {
+                "id": "274",
+                "name": "Markaz Sohag",
+                "name_long": "Markaz Sohag, Sohag",
+                "url": "sohag-city"
+            },
+            {
+                "id": "284",
+                "name": "Monsha'a",
+                "name_long": "Monsha'a, Sohag",
+                "url": "monsha-a"
+            },
+            {
+                "id": "418",
+                "name": "New Sohag",
+                "name_long": "New Sohag, Sohag",
+                "url": "new-sohag"
+            },
+            {
+                "id": "280",
+                "name": "Sakaltah",
+                "name_long": "Sakaltah, Sohag",
+                "url": "sakaltah"
+            },
+            {
+                "id": "282",
+                "name": "Tahta",
+                "name_long": "Tahta, Sohag",
+                "url": "tahta"
+            },
+            {
+                "id": "281",
+                "name": "Tama",
+                "name_long": "Tama, Sohag",
+                "url": "tama"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name": "South Sinai",
+        "url": "south-sinai",
+        "subregions": [
+            {
+                "id": "193",
+                "name": "Abu Rudeis",
+                "name_long": "Abu Rudeis, South Sinai",
+                "url": "abu-rudeis"
+            },
+            {
+                "id": "192",
+                "name": "Abu Zenimah",
+                "name_long": "Abu Zenimah, South Sinai",
+                "url": "abu-zenimah"
+            },
+            {
+                "id": "187",
+                "name": "Dahab",
+                "name_long": "Dahab, South Sinai",
+                "url": "dahab"
+            },
+            {
+                "id": "186",
+                "name": "Nuweiba",
+                "name_long": "Nuweiba, South Sinai",
+                "url": "nuweiba"
+            },
+            {
+                "id": "396",
+                "name": "Ras Sedr",
+                "name_long": "Ras Sedr, South Sinai",
+                "url": "ras-sedr"
+            },
+            {
+                "id": "189",
+                "name": "Sharm al-Sheikh",
+                "name_long": "Sharm al-Sheikh, South Sinai",
+                "url": "sharm-al-sheikh"
+            },
+            {
+                "id": "190",
+                "name": "St. Catherine",
+                "name_long": "St. Catherine, South Sinai",
+                "url": "st-catherine"
+            },
+            {
+                "id": "185",
+                "name": "Taba",
+                "name_long": "Taba, South Sinai",
+                "url": "taba"
+            },
+            {
+                "id": "191",
+                "name": "Tor Sinai",
+                "name_long": "Tor Sinai, South Sinai",
+                "url": "tor-sinai"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Suez",
+        "url": "suez",
+        "subregions": [
+            {
+                "id": "79",
+                "name": "Ain Sukhna",
+                "name_long": "Ain Sukhna, Suez",
+                "url": "ain-sukhna"
+            },
+            {
+                "id": "94",
+                "name": "Arbaeen",
+                "name_long": "Arbaeen, Suez",
+                "url": "arbaeen"
+            },
+            {
+                "id": "77",
+                "name": "Attaka",
+                "name_long": "Attaka, Suez",
+                "url": "attaka"
+            },
+            {
+                "id": "166",
+                "name": "Faisal District",
+                "name_long": "Faisal District, Suez",
+                "url": "faisal-district"
+            },
+            {
+                "id": "78",
+                "name": "Ganayen",
+                "name_long": "Ganayen, Suez",
+                "url": "ganayen"
+            },
+            {
+                "id": "165",
+                "name": "Suez District",
+                "name_long": "Suez District, Suez",
+                "url": "suez-district"
+            }
+        ]
+    }
+]

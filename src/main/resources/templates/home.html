@@ -1,0 +1,54 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd"> 
+ <html xmlns="http://www.w3.org/1999/xhtml"  xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <title>OLX</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="lib/jquery-ui.min.css">
+      </head>
+  <body>
+    <div class="container">
+      <div th:include = "search :: search"></div>
+      <div><br></div>
+        <div class="row row-cols-1 row-cols-md-2" >
+
+            <div class="col mb-4" th:each="ads :${ads}">
+             
+              <div class="card" style="cursor: pointer;" th:onclick="|window.location='/ads/${ads.adsId}';|">
+              <div class="embed-responsive embed-responsive-16by9">
+                <img th:with="imageUrl=(${ads.img.isEmpty()}? '/images/nophoto.png' : ${ads.img.get(0).imgUrl})" th:src="@{${imageUrl}}"   class="card-img-top embed-responsive-item"  alt="image not found" style="object-fit: cover;">
+                </div>
+                <div class="card-body">
+                  <a class="card-title" th:text="${ads.title}" th:href="|/ads/${ads.adsId}|"></a>
+                   <p class="card-text" th:text="${ads.info.salary+'  $'}" th:if="${not ads.info.salary.isEmpty()}"></p>
+                   <p class="card-text" th:text="${ads.category.categoryName}"></p>
+                   <p class="card-text" th:text="${ads.info.condtion}"></p>
+                   <p class="card-text" th:text="${ads.city.cityName}"></p>
+                </div>
+                    <div class="card-footer">
+                   <small class="text-muted" th:text="${ads.getTimeFromNow()}" >Last updated 3 mins ago</small>
+                 </div>
+              </div>
+            </div>
+
+          </div>
+
+          </div>
+
+    <script src="lib/jquery.js"></script>
+    <script src="lib/jquery-ui.min.js"></script>
+    <script src="lib/bootstrap.js"></script>
+        
+
+   <script type="text/javascript">
+   $(document).ready(function(){
+	    $(".card").hover(function(){
+	        $(this).css("background", "#f5f5ff");
+	    }, function(){
+	        $(this).css("background", "#fff");
+	    });
+	});
+  </script>
+  </body>
+</html>

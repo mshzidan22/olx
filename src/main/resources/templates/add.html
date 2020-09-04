@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <title>Add ads</title>
+    <link rel="stylesheet" href="lib/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <form th:object="${ads}" th:action="@{/add}" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Ads Title</label> <input type="text" class="form-control"
+                    id="exampleFormControlInput1" placeholder="Title here" th:field="*{title}">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Ads Category</label> <select class="form-control"
+                    id="exampleFormControlSelect1" th:field="*{categoryId}">
+                    <option th:each="category : ${category}" th:value="${category.categoryId}"
+                        th:text="${category.categoryName}">notfound</option>
+
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Descreption</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+                    th:field="*{descreption}"></textarea>
+            </div>
+
+            <div class="form-group">
+            <label for="exampleFormControlSelect1">Gov</label>
+            <select class="form-control" id="govSelect" name="govId">
+            </select>
+        </div>
+
+
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">City</label>
+            <select class="form-control" id="citySelect" name="cityId">
+                <option value="297">Abu Qir</option>
+                </select>
+        </div>
+
+
+            <div class="form-row">
+
+                <div class="form-group col-md-4">
+                    <label>Salary</label> <input type="number" class="form-control" th:field="*{info.salary}">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label>Brand</label> <input type="text" class="form-control" th:field="*{info.brand}">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="inputState">Condtion</label> <select id="inputState" class="form-control"
+                        th:field="*{info.condtion}">
+                        <option th:value="Used">Used</option>
+                        <option th:value="New">New</option>
+                    </select>
+                </div>
+
+            </div>
+            <label for="exampleFormControlFile1">Upload Your Images</label> </br>
+            <row>
+            
+            <div class="form-group row border" id="imageDiv" >
+                
+                <div class="col-md-3"><input type="file" class="form-control-file" id="imageFile1" ></div>
+                <div class="col-md-3"><input type="file" class="form-control-file" id="imageFile2"  disabled="true"></div>
+                <div class="col-md-3"><input type="file" class="form-control-file" id="imageFile3"  disabled="true"></div>
+                <div class="col-md-3"><input type="file" class="form-control-file" id="imageFile4"  disabled="true"></div>
+                <div class="col-md-3"><input type="file" class="form-control-file" id="imageFile5"  disabled="true"></div>
+                <div class="col-md-3"><input type="file" class="form-control-file" id="imageFile6"  disabled="true"></div>
+                <div class="col-md-3"><input type="file" class="form-control-file" id="imageFile7"  disabled="true"></div>
+                <div class="col-md-3"><input type="file" class="form-control-file" id="imageFile8"  disabled="true"></div>
+
+            </div>
+           </row>
+
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+        
+</form>
+
+    </div>
+
+
+
+    <script src="lib/jquery.js"></script>
+    <script src="lib/bootstrap.js"></script>
+
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                $.ajax({
+                    url: '../location.json',
+                    dataType: 'json',
+                    success: function (data) {
+                        for (i in data) {
+                            $(govSelect).append(new Option(data[i].name, data[i].id));
+                        }
+                        
+                        $('#govSelect').change(function () {
+                            $('#citySelect').empty();
+
+                            selectedGovId = $(govSelect).val();
+                            for (i in data) {
+                                if (data[i].id == selectedGovId) {
+                                    for (j in data[i].subregions)
+                                        $(citySelect).append(new Option(data[i].subregions[j].name, data[i].subregions[j].id));
+
+
+                                }
+                            }
+
+                        });
+
+
+                    }
+
+
+
+                });
+
+              $('#imageFile1').on('change',function(){
+            	$('#imageFile1').prop('name','imageFile');
+                $('#imageFile2').prop('disabled',false);
+              })
+              $('#imageFile2').on('change',function(){
+            	$('#imageFile2').prop('name','imageFile');
+                $('#imageFile3').prop('disabled',false);
+              })
+              $('#imageFile3').on('change',function(){
+            	$('#imageFile3').prop('name','imageFile');
+                $('#imageFile4').prop('disabled',false);
+              })
+                            $('#imageFile4').on('change',function(){
+            	$('#imageFile4').prop('name','imageFile');
+                $('#imageFile5').prop('disabled',false);
+              })
+                            $('#imageFile5').on('change',function(){
+            	$('#imageFile5').prop('name','imageFile');
+                $('#imageFile6').prop('disabled',false);
+              })
+                            $('#imageFile6').on('change',function(){
+            	$('#imageFile6').prop('name','imageFile');
+                $('#imageFile7').prop('disabled',false);
+              })
+                            $('#imageFile7').on('change',function(){
+            	$('#imageFile7').prop('name','imageFile');
+                $('#imageFile8').prop('disabled',false);
+              })
+                            $('#imageFile8').on('change',function(){
+            	$('#imageFile8').prop('name','imageFile');
+
+              })
+
+            });
+
+
+
+
+
+    </script>
+</body>
+
+</html>
